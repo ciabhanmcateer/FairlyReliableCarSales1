@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Fairly Reliable Car Sales | Catalogue</title>
+    <link rel="stylesheet" href=".vscode/Cataloguepage.css" />
+    <link rel="icon" type="image/x-icon" href=".assets/FRLogo.jpg" />
+    <style>
+        body {
+            font-family: Arial;
+            background-image: url('assets/CarDealership.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            display: solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fairly Reliable Car Sales</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Aboutpage.html">About</a></li>
+            <li><a href="Cataloguepage.html">Catalogue</a></li>
+            <li><a href="Servicespage.html">Services</a></li>
+            <li><a href="Contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="search-bar">
+            <form id="car-search-form">
+                <select id="make" name="make">
+                    <option value="">Select Make</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Audi">Audi</option>
+                </select>
+                <select id="model" name="model">
+                    <option value="">Select Model</option>
+                </select>
+                <select id="year" name="year">
+                    <option value="">Select Year</option>
+                </select>
+                <input type="number" id="mileage" name="mileage" placeholder="Enter Mileage">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div class="car-card">
+            <img src="assets/2023Tesla.jpg" alt="2023Tesla" class="car-image">
+            <div class="car-info">
+                <h2>2023 Tesla Model S</h2>
+                <p>Year: 2023</p>
+                <p>Model: Tesla Model S</p>
+                <p>Mileage: 23000km</p>
+                <p class="price">£94,990</p>
+            </div>
+            <a href="Contactpage.html" class="book-viewing-btn">Book a Viewing</a>
+        </div>
+        <div class="car-card">
+            <img src="assets/2017AudiA3.jpg" alt="2017Audi" class="car-image">
+            <div class="car-info">
+                <h2>2017 Audi A3</h2>
+                <p>Year: 2017</p>
+                <p>Model: A3</p>
+                <p>Mileage: 67000km</p>
+                <p class="price">£4,990</p>
+            </div>
+            <a href="Contactpage.html" class="book-viewing-btn">Book a Viewing</a>
+        </div>
+        <div class="car-card">
+            <img src="assets/2012ToyotaYaris.jpg" alt="2012ToyotaY" class="car-image">
+            <div class="car-info">
+                <h2>2012 Toyota Yaris</h2>
+                <p>Year: 2012</p>
+                <p>Model: Yaris</p>
+                <p>Mileage: 94000km</p>
+                <p class="price">£1,990</p>
+            </div>
+            <a href="Contactpage.html" class="book-viewing-btn">Book a Viewing</a>
+        </div>
+        <div class="car-card">
+            <img src="assets/2015FordFocus.jpg" alt="2015FordF" class="car-image">
+            <div class="car-info">
+                <h2>2015 Ford Focus</h2>
+                <p>Year: 2015</p>
+                <p>Model: Focus</p>
+                <p>Mileage: 57000km</p>
+                <p class="price">£5,990</p>
+            </div>
+            <a href="Contactpage.html" class="book-viewing-btn">Book a Viewing</a>
+        </div>
+        <div class="car-card">
+            <img src="assets/2024FordMustang.jpg" alt="2015FordM" class="car-image">
+            <div class="car-info">
+                <h2>2024 Ford Mustang</h2>
+                <p>Year: 2024</p>
+                <p>Model: Mustang</p>
+                <p>Mileage: 12000km</p>
+                <p class="price">£80,990</p>
+            </div>
+            <a href="Contactpage.html" class="book-viewing-btn">Book a Viewing</a>
+        </div>
+        <div class="car-card">
+            <img src="assets/2014HondaCivic.jpg" alt="2014HondaC" class="car-image">
+            <div class="car-info">
+                <h2>2014 Honda Civic</h2>
+                <p>Year: 2014</p>
+                <p>Model: Civic</p>
+                <p>Mileage: 96000km</p>
+                <p class="price">£3,990</p>
+            </div>
+            <a href="Contactpage.html" class="book-viewing-btn">Book a Viewing</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fairly Reliable Car Sales. All rights reserved.</p>
+    </footer>
+    <script src=".vscode/Cataloguepage.js"></script>
+</body>
+</html>

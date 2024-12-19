@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Fairly Reliable Car Sales | Home</title>
+    <link rel="stylesheet" href=".vscode/Homepage.css" />
+    <link rel="icon" type="image/x-icon" href="assets/FRLogo.jpg" />
+    <style>
+        body {
+            font-family: Arial;
+            background-image: url('assets/CarDealership.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            display: solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fairly Reliable Car Sales</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Aboutpage.html">About</a></li>
+            <li><a href="Cataloguepage.html">Catalogue</a></li>
+            <li><a href="Servicespage.html">Services</a></li>
+            <li><a href="Contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>At Fairly Reliable Car Sales, we pride ourselves on offering a wide selection of quality vehicles at competitive prices. Our team is dedicated to providing exceptional customer service and ensuring you drive away happy.</p>
+        <div class="container">
+            <img src="assets/FinancialImage.jpg" alt="FinancialImage">
+            <button onclick="window.location.href='Aboutpage.html'">Find out more...</button>
+        </div>
+        <div class="search-bar">
+            <form id="car-search-form" action="cataloguepage.html" method="GET">
+                <select id="make" name="make">
+                    <option value="">Select Make</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Audi">Audi</option>
+                </select>
+                <select id="model" name="model">
+                    <option value="">Select Model</option>
+                </select>
+                <select id="year" name="year">
+                    <option value="">Select Year</option>
+                </select>
+                <input type="number" id="mileage" name="mileage" placeholder="Enter Mileage">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+    <aside>
+        <div class="container2">
+            <section class="services-info">
+                <h2>Our Services</h2>
+                <p>We offer a wide range of services to keep your vehicle in top condition:</p>
+                <ul>
+                    <li>Finance Options</li>
+                    <li>MOT Servicing</li>
+                    <li>Diagnostics</li>
+                </ul>
+                <button onclick="window.location.href='Servicespage.html'">Learn More About Our Services</button>
+            </section>
+        </div>
+    </aside>
+    <footer>
+        <p>&copy; 2024 Fairly Reliable Car Sales. All rights reserved.</p>
+    </footer>
+    <script src=".vscode/Homepage.js"></script>
+</body>
+</html>

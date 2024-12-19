@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Fairly Reliable Car Sales | Contact</title>
+    <link rel="stylesheet" href=".vscode/Homepage.css" />
+    <link rel="icon" type="image/x-icon" href="assets/FRLogo.jpg" />
+    <style>
+        body {
+            font-family: Arial;
+            background-image: url('assets/CarDealership.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            display: solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fairly Reliable Car Sales</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Aboutpage.html">About</a></li>
+            <li><a href="Cataloguepage.html">Catalogue</a></li>
+            <li><a href="Servicespage.html">Services</a></li>
+            <li><a href="Contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Request a Callback</h2>
+        <form action="submit-callback-request" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="contact">Contact Number:</label><br>
+            <input type="tel" id="contact" name="contact" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="query">Your Query:</label><br>
+            <textarea id="query" name="query" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Fairly Reliable Car Sales. All rights reserved.</p>
+    </footer>
+</body>
+</html>
